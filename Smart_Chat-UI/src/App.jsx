@@ -15,10 +15,12 @@ function App() {
   const handleChatSelect = (chatId) => {
     setSelectedChatId(chatId);
     setShowWelcome(false);
+    setPendingIcebreaker(''); // Clear icebreaker when switching chats
   };
 
   const handleNewChat = () => {
     setSelectedChatId(null);
+    setPendingIcebreaker(''); // Also clear when starting a new chat
   };
 
   const handleStartChat = (userObj, icebreakerText = '') => {
