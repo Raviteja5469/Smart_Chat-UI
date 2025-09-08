@@ -20,8 +20,8 @@ Smart-ChatAI is a modern, AI-powered chat application built with React and Vite.
 ### Installation
 1. Clone the repository:
 	```bash
-	git clone <your-repo-url>
-	cd Smart-ChatAI/client
+	git clone [https://github.com/Raviteja5469/Smart_Chat-UI/]
+	cd Smart-ChatAI/Smart_Chat-UI/
 	```
 2. Install dependencies:
 	```bash
